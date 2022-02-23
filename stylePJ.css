@@ -42,43 +42,7 @@ body {
 }
 
 section {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-}
 
-.principal-texto {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    background-color: #fe8f8f;
-    padding: 20px;
-    border-radius: 35px;
-    margin-top: 88px;
-    box-shadow: 6px 6px 4px 6px rgba(0, 0, 0, 0.25);
-}
-
-.principal-titulo {
-    font-family: Arvo, serif;
-    font-weight: 700;
-    font-size: 40px;
-    color: #ffffff;
-}
-
-.principal-paragrafo {
-    font-family: Arvo, serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: #ffffff;
-}
-
-.principal-foto {
-    border-radius: 400px;
-    height: 260px;
-    margin-top: 19px;
-    box-shadow: 6px 6px 4px 6px rgba(0, 0, 0, 0.25);
-    border: 4px solid #FE8F8F;
 }
 
 footer {
