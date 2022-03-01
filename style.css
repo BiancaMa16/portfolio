@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
  * {
     margin: 0;
@@ -9,7 +9,8 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #FCD2D1 16.62%, #FFEDD3 85.61%);;
+    background-color: #221E1E;
+    font-family: 'Merriweather', serif;
 }
 
 .cabeçalho {
@@ -27,13 +28,19 @@ body {
 }
 
 .cabeçalho-logo {
-    height: 115px;
+    height: 100px;
     margin-right: 500px;
 }
 
 .cabeçalho-menu-item {
     color: #FF5C58;
-    font-size: 24px;
+    font-size: 20px;
+}
+
+.cabeçalho-menu-item:hover {
+    color: #FCD2D1;
+    font-size: 20px;
+    transition: all 0.6s;
 }
 
 .principal {
@@ -45,40 +52,53 @@ section {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    align-items: center;
 }
 
 .principal-texto {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    background-color: #fe8f8f;
-    padding: 20px;
-    border-radius: 35px;
-    margin-top: 88px;
-    box-shadow: 6px 6px 4px 6px rgba(0, 0, 0, 0.25);
+    gap: 10px;
+    padding: 10px;
+    margin-right: 250px;
+    margin-top: 60px;
+    max-width: 900px;
 }
 
 .principal-titulo {
-    font-family: Arvo, serif;
     font-weight: 700;
     font-size: 40px;
-    color: #ffffff;
+    color: #FCD2D1;
+    max-width: 600px;
+}
+
+span {
+    color: #FF5C58;
 }
 
 .principal-paragrafo {
-    font-family: Arvo, serif;
     font-weight: 400;
     font-size: 20px;
-    color: #ffffff;
+    color: #FCD2D1;
+    max-width: 600px;
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    color: #FCD2D1;
+    gap: 100px;
+    margin-left: 20px;
 }
 
 .principal-foto {
+    position: absolute;
     border-radius: 400px;
     height: 260px;
-    margin-top: 19px;
     box-shadow: 6px 6px 4px 6px rgba(0, 0, 0, 0.25);
     border: 4px solid #FE8F8F;
+    margin-top: 60px;
+    margin-left: 420px;
 }
 
 footer {
@@ -98,4 +118,5 @@ button {
     height: 75px;
     border-radius: 20px;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }

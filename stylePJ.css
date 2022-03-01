@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
  * {
     margin: 0;
@@ -9,7 +9,8 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #FCD2D1 16.62%, #FFEDD3 85.61%);;
+    background-color: #221E1E;
+    font-family: 'Merriweather', serif;
 }
 
 .cabeçalho {
@@ -27,13 +28,19 @@ body {
 }
 
 .cabeçalho-logo {
-    height: 115px;
+    height: 100px;
     margin-right: 500px;
 }
 
 .cabeçalho-menu-item {
     color: #FF5C58;
-    font-size: 24px;
+    font-size: 20px;
+}
+
+.cabeçalho-menu-item:hover {
+    color: #FCD2D1;
+    font-size: 20px;
+    transition: all 0.6s;
 }
 
 .principal {
@@ -42,7 +49,9 @@ body {
 }
 
 section {
-
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 footer {
@@ -62,4 +71,5 @@ button {
     height: 75px;
     border-radius: 20px;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
