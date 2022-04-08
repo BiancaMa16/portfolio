@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&display=swap');
+
+body {
+    background-image: url("https://i.ibb.co/XxqgGth/lawrence-kayku.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Noto Serif Display', serif;
+}
+
+.container {
+    position: absolute;
+    background: rgba(118, 128, 120, 0.77);
+    backdrop-filter: blur(7px);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    padding: 10px;
+    width: 80%;
+    height: 80%;
+    margin-top: 60px;
+    margin-left: 90px; 
+    color: white;
+    border-radius: 30px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 23px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #22AC41;
+    transition: 0.3s all;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+texto-principal {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-left: 20px;
+    font-size: 43px;
+    max-width: 450PX;
+    line-height: 43px;
+}
+
+p{
+    margin-left: 20px;
+    max-width: 600px; 
+    font-size: 22px;
+    line-height: 30px; 
+    font-weight: 200;
+}
+
+.img-bnt {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    align-items: center;
+}
+
+button {
+    height: 90px;
+    width: 250PX;
+    font-size: 30px;
+    color: white;
+    background-color: #22AC41;
+    border: none;
+    border-radius: 60px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.32);
+}
+
+button:hover {
+    height: 90px;
+    width: 250PX;
+    font-size: 30px;
+    color: white;
+    background-color: #07402E;
+    border: none;
+    border-radius: 60px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.32);
+    transition: 0.3s;
+}
