@@ -1,0 +1,94 @@
+@media screen and (max-width: 760px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    
+    .cabeçalho-logo {
+        height: 50px;
+        margin-right: 170px;
+    }
+
+    .cabeçalho-menu {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #221E1E;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+    }
+
+    .cabeçalho-menu-item {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .cabeçalho-menu.active {
+        transform: translateX(0);
+    }
+
+    .principal {
+        flex-direction: column;
+        right: 0;
+        align-items: center;
+    }
+
+    .principal-texto {
+        position: relative;
+        left: 80px;
+    }
+
+    .principal-titulo {
+        font-size: 25px;
+        max-width: 450px;
+        right: 0;
+    }
+
+    .principal-paragraf {
+        font-size: 15px;
+        max-width: 450px;
+        right: 0;
+    }
+
+    .habilidades {
+        flex-direction: column;
+        right: 0;
+    }
+
+    .principal-foto {
+        display: none;
+    }
+
+    footer {
+        border-top: 0.5px solid #FF5C58;
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    .button-img {
+        height: 30px;
+    }
+
+    button {
+        margin-top: 20px;
+        border: none;
+        background: #FF5C58;
+        width: 37.5px;
+        height: 37.5px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+    }
+}

@@ -32,6 +32,18 @@ body {
     margin-right: 500px;
 }
 
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #FCD2D1;
+    margin: 8px;
+}
+
 .cabeçalho-menu-item {
     color: #FF5C58;
     font-size: 20px;
