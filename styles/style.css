@@ -33,11 +33,15 @@ body {
 }
 
 .cabeçalho-menu-item {
+    list-style: none;
+}
+
+a {
     color: #FF5C58;
     font-size: 20px;
 }
 
-.cabeçalho-menu-item:hover {
+a:hover {
     color: #FCD2D1;
     font-size: 20px;
     transition: all 0.6s;
