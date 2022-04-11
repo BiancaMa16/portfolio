@@ -11,6 +11,7 @@ body {
     font-size: 100%;
     background-color: #221E1E;
     font-family: 'Merriweather', serif;
+    overflow-x: hidden;
 }
 
 .cabeçalho {
