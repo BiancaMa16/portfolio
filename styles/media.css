@@ -1,0 +1,79 @@
+@media screen and (max-width: 760px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    
+    .cabeçalho-logo {
+        height: 50px;
+        margin-right: 170px;
+    }
+
+    .cabeçalho-menu-item {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .cabeçalho-menu.active {
+        transform: translateX(0);
+    }
+
+    .principal {
+        border-top: 0.5px solid #FF5C58;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .principal-texto {
+        position: relative;
+        left: 65px;
+    }
+
+    .principal-titulo {
+        font-size: 25px;
+        max-width: 450px;
+    }
+
+    .principal-paragraf {
+        font-size: 15px;
+        max-width: 450px;
+    }
+
+    .habilidades {
+        flex-direction: column;
+        right: 0;
+        gap: 40px;
+    }
+
+    .principal-foto {
+        display: none;
+    }
+
+    footer {
+        border-top: 0.5px solid #FF5C58;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .button-img {
+        height: 30px;
+    }
+
+    button {
+        margin-top: 20px;
+        border: none;
+        background: #FF5C58;
+        width: 37.5px;
+        height: 37.5px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+    }
+}
