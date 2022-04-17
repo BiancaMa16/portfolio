@@ -103,3 +103,7 @@ button:hover {
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.32);
     transition: 0.3s;
 }
+
+@media screen and (max-width: 760px) {
+
+}
