@@ -11,15 +11,19 @@
 <body>
     <div class="container">
         <header>
-            <div>
-                <h1>LifeLeaves</h1>
-            </div>
-                <ul>
-                    <a href=""><li>Sobre</li></a>
-                    <a href=""><li>Contato</li></a>
-                    <a href=""><li>Beneficios</li></a>
-                    <a href=""><li>Cadastre-se</li></a>
-                </ul>
+            <nav class="navbar">
+                <a href="#" class="logo">LifeLeaves</a>
+                <input type="checkbox" id="toggler">
+                <label for="toggler"><i class="ri-menu-line"></i></label>
+                <div class="menu">
+                    <ul class="lista">
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Contato</a></li>
+                        <li><a href="">Beneficios</a></li>
+                        <li><a href="">Cadastre-se</a></li>
+                    </ul>
+                </div>
+            </nav>
         </header>
 
         <main>
@@ -31,7 +35,7 @@
                 </p>
             </div>
             <div class="img-bnt">
-                <img src="componentes/imagens/plantas desenhoSemFundo.png" alt="Folhas verdes" height="310px">
+                <img class="folha" src="componentes/imagens/plantas desenhoSemFundo.png" alt="Folhas verdes" height="310px">
                 <button>Start Now</button>
             </div>
         </main>

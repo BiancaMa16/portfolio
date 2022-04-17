@@ -12,7 +12,7 @@ body {
     background: rgba(118, 128, 120, 0.77);
     backdrop-filter: blur(7px);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
-    padding: 10px;
+    padding: 20px;
     width: 80%;
     height: 80%;
     margin-top: 60px;
@@ -21,17 +21,23 @@ body {
     border-radius: 30px;
 }
 
-header {
+.navbar {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    align-items: center;
+    padding: 2px;
 }
 
-h1 {
+.logo {
     font-size: 35px;
-    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.lista {
+    display: flex;
+    list-style: none;
+    gap: 20px;
 }
 
 li {
@@ -42,6 +48,7 @@ li {
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 a:hover {
@@ -49,9 +56,13 @@ a:hover {
     transition: 0.3s all;
 }
 
+#toggler, .navbar label {
+    display: none;
+}
+
 main{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 texto-principal {
@@ -93,17 +104,61 @@ button {
 }
 
 button:hover {
-    height: 90px;
-    width: 250PX;
-    font-size: 30px;
-    color: white;
     background-color: #07402E;
-    border: none;
-    border-radius: 60px;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.32);
     transition: 0.3s;
 }
 
 @media screen and (max-width: 760px) {
+    .menu {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
 
+    .lista {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .navbar label {
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    #toggler:checked ~ .menu {
+        max-height: 100%;
+    }
+
+    body {
+        background-image: url("componentes/imagens/lawrence-kayku - 90 graus.jpg");
+        background-size: cover;
+        font-family: 'Noto Serif Display', serif;
+    }
+
+    h2 {
+        font-size: 21px;
+        max-width: 300PX;
+    }
+    
+    p{
+        margin-left: 20px;
+        max-width: 300px; 
+    }
+
+    .container {
+        margin-top: 20px;
+        margin-left: 20px; 
+    }
+
+    .folha {
+        display: none;
+    }
+
+    button {
+        height: 45px;
+        width: 125PX;
+        font-size: 15px;
+    }
 }
